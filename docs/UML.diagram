@@ -1,0 +1,6 @@
+# Cool UML Diagram
+[member]^-[teacher]
+[member]^-[student]
+[teacher]<>1-edit 0..*>[group]
+[teacher]1-0..*[group]
+[group]++*-*>[student]
