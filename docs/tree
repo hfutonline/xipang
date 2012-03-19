@@ -1,0 +1,354 @@
+.
+├── Bootstrap.php
+├── configs
+│   └── application.ini
+├── controllers
+│   ├── AdminController.php
+│   ├── AppController.php
+│   ├── BlogController.php
+│   ├── db.php
+│   ├── ErrorController.php
+│   ├── FriendsController.php
+│   ├── HomeController.php
+│   ├── ImController.php
+│   ├── IndexController.php
+│   ├── PersonalController.php
+│   ├── PublicController.php
+│   ├── ServerController.php
+│   ├── UserController.php
+│   ├── WebserviceController.php
+│   └── WeiboController.php
+├── layouts
+│   └── scripts
+│       └── layout.phtml
+├── models
+│   ├── 4.php
+│   ├── 5.php
+│   ├── Api.php
+│   ├── autoadd.sh
+│   ├── auto.sh
+│   ├── Blog
+│   │   ├── BlogCategoriesMapper.php
+│   │   ├── BlogCategories.php
+│   │   ├── BlogPostMapper.php
+│   │   ├── BlogPost.php
+│   │   └── DbTable
+│   │       ├── BlogCategories.php
+│   │       └── BlogPost.php
+│   ├── Censor.php
+│   ├── cookie.tmp
+│   ├── Curl.php
+│   ├── dbautoadd.sh
+│   ├── DbTable
+│   │   ├── Favorite.php
+│   │   ├── Feed.php
+│   │   ├── FeedTs.php
+│   │   ├── InviteRecord.php
+│   │   ├── Letter.php
+│   │   ├── LoginRecord.php
+│   │   ├── Message.php
+│   │   ├── Poke.php
+│   │   ├── Session.php
+│   │   ├── Sign.php
+│   │   ├── Subscribe.php
+│   │   ├── Suggestion.php
+│   │   ├── Verified.php
+│   │   └── Visitor.php
+│   ├── Favorite.php
+│   ├── FeedMapper.php
+│   ├── Feed.php
+│   ├── FeedTsMapper.php
+│   ├── FeedTs.php
+│   ├── FileFinder.php
+│   ├── Friends
+│   │   ├── DbTable
+│   │   │   ├── FollowGroupLink.php
+│   │   │   ├── FollowGroup.php
+│   │   │   ├── Follow.php
+│   │   │   └── Friend.php
+│   │   ├── FollowGroupLinkMapper.php
+│   │   ├── FollowGroupLink.php
+│   │   ├── FollowGroupMapper.php
+│   │   ├── FollowGroup.php
+│   │   ├── FollowMapper.php
+│   │   ├── Follow.php
+│   │   ├── FriendMapper.php
+│   │   └── Friend.php
+│   ├── FunctionImage.php
+│   ├── Function.php
+│   ├── Gift
+│   │   ├── DbTable
+│   │   │   ├── GiftCategory.php
+│   │   │   ├── Gift.php
+│   │   │   └── GiftUser.php
+│   │   ├── GiftCategoryMapper.php
+│   │   ├── GiftCategory.php
+│   │   ├── GiftMapper.php
+│   │   ├── Gift.php
+│   │   ├── GiftUserMapper.php
+│   │   └── GiftUser.php
+│   ├── Group
+│   │   ├── DbTable
+│   │   │   ├── DbTable
+│   │   │   ├── GroupAlbum.php
+│   │   │   ├── GroupAttachment.php
+│   │   │   ├── GroupCategory.php
+│   │   │   ├── GroupInviteVerify.php
+│   │   │   ├── GroupLog.php
+│   │   │   ├── GroupMember.php
+│   │   │   ├── Group.php
+│   │   │   ├── GroupTag.php
+│   │   │   ├── GroupTopic.php
+│   │   │   ├── GroupWeiboComment.php
+│   │   │   └── GroupWeibo.php
+│   │   ├── GroupAlbumMapper.php
+│   │   ├── GroupAlbum.php
+│   │   ├── GroupAttachmentMapper.php
+│   │   ├── GroupAttachment.php
+│   │   ├── GroupCategoryMapper.php
+│   │   ├── GroupCategory.php
+│   │   ├── GroupInviteVerifyMapper.php
+│   │   ├── GroupInviteVerify.php
+│   │   ├── GroupLogMapper.php
+│   │   ├── GroupLog.php
+│   │   ├── GroupMapper.php
+│   │   ├── GroupMemberMapper.php
+│   │   ├── GroupMember.php
+│   │   ├── Group.php
+│   │   ├── GroupTagMapper.php
+│   │   ├── GroupTag.php
+│   │   ├── GroupTopicMapper.php
+│   │   ├── GroupTopic.php
+│   │   ├── GroupWeiboCommentMapper.php
+│   │   ├── GroupWeiboComment.php
+│   │   ├── GroupWeiboMapper.php
+│   │   └── GroupWeibo.php
+│   ├── Home
+│   │   ├── DbTable
+│   │   │   ├── Spacefield.php
+│   │   │   └── Space.php
+│   │   ├── manage-ajax.js
+│   │   ├── PluginMapper.php
+│   │   ├── SpacefieldMapper.php
+│   │   ├── Spacefield.php
+│   │   ├── SpaceMapper.php
+│   │   └── Space.php
+│   ├── Image.php
+│   ├── Information.php
+│   ├── InviteRecordMapper.php
+│   ├── InviteRecord.php
+│   ├── jiao.tmp
+│   ├── LetterMapper.php
+│   ├── Letter.php
+│   ├── LoginRecordMapper.php
+│   ├── LoginRecord.php
+│   ├── Mapper.php
+│   ├── Memcached.php
+│   ├── MessageMapper.php
+│   ├── Message.php
+│   ├── Module
+│   │   ├── Group.php
+│   │   ├── Mail.php
+│   │   ├── Member.php
+│   │   ├── Student.php
+│   │   └── Teacher.php
+│   ├── Pagination.php
+│   ├── PokeMapper.php
+│   ├── Poke.php
+│   ├── Poll
+│   │   ├── DbTable
+│   │   │   ├── Polloption.php
+│   │   │   ├── Poll.php
+│   │   │   └── Polluser.php
+│   │   ├── PollMapper.php
+│   │   ├── PolloptionMapper.php
+│   │   ├── Polloption.php
+│   │   ├── Poll.php
+│   │   ├── PolluserMapper.php
+│   │   └── Polluser.php
+│   ├── Poster
+│   │   ├── DbTable
+│   │   │   ├── Poster.php
+│   │   │   ├── PosterSmallType.php
+│   │   │   ├── PosterType.php
+│   │   │   └── PosterWidget.php
+│   │   ├── PosterMapper.php
+│   │   ├── Poster.php
+│   │   ├── PosterSmallTypeMapper.php
+│   │   ├── PosterSmallType.php
+│   │   ├── PosterTypeMapper.php
+│   │   ├── PosterType.php
+│   │   ├── PosterWidgetMapper.php
+│   │   └── PosterWidget.php
+│   ├── Public
+│   │   └── DbTable
+│   ├── Redis.php
+│   ├── SessionMapper.php
+│   ├── Session.php
+│   ├── ShortUrlService.php
+│   ├── SignMapper.php
+│   ├── Sign.php
+│   ├── SimpleMapper.php
+│   ├── Simple.php
+│   ├── SubscribeMapper.php
+│   ├── Subscribe.php
+│   ├── SuggestionMapper.php
+│   ├── Suggestion.php
+│   ├── Templates
+│   │   └── Productor.php
+│   ├── User
+│   │   ├── 4.php
+│   │   ├── 5.php
+│   │   ├── CreditlogMapper.php
+│   │   ├── Creditlog.php
+│   │   ├── DbTable
+│   │   │   ├── Creditlog.php
+│   │   │   ├── Impression.php
+│   │   │   ├── ImpressionUser.php
+│   │   │   ├── Member.php
+│   │   │   ├── Notice.php
+│   │   │   ├── Tag.php
+│   │   │   ├── UserOnline.php
+│   │   │   └── UserTag.php
+│   │   ├── HomeController.php
+│   │   ├── ImpressionMapper.php
+│   │   ├── Impression.php
+│   │   ├── ImpressionUserMapper.php
+│   │   ├── ImpressionUser.php
+│   │   ├── mapper.php
+│   │   ├── MemberMapper.php
+│   │   ├── Member.php
+│   │   ├── NoticeMapper.php
+│   │   ├── Notice.php
+│   │   ├── TagMapper.php
+│   │   ├── Tag.php
+│   │   ├── UserOnlineMapper.php
+│   │   ├── UserOnline.php
+│   │   ├── UserTagMapper.php
+│   │   └── UserTag.php
+│   ├── VerifiedMapper.php
+│   ├── Verified.php
+│   ├── VisitorMapper.php
+│   ├── Visitor.php
+│   ├── Vote
+│   │   ├── DbTable
+│   │   │   ├── VoteOpt.php
+│   │   │   ├── Vote.php
+│   │   │   └── VoteUser.php
+│   │   ├── VoteMapper.php
+│   │   ├── VoteOptMapper.php
+│   │   ├── VoteOpt.php
+│   │   ├── Vote.php
+│   │   ├── VoteUserMapper.php
+│   │   └── VoteUser.php
+│   └── Weibo
+│       ├── DbTable
+│       │   ├── Topic.php
+│       │   ├── WeiboAtme.php
+│       │   ├── WeiboComment.php
+│       │   ├── Weibo.php
+│       │   └── WeiboSearch.php
+│       ├── TopicMapper.php
+│       ├── Topic.php
+│       ├── WeiboAtmeMapper.php
+│       ├── WeiboAtme.php
+│       ├── WeiboCommentMapper.php
+│       ├── WeiboComment.php
+│       ├── WeiboMapper.php
+│       ├── Weibo.php
+│       ├── WeiboSearchMapper.php
+│       └── WeiboSearch.php
+└── views
+    ├── helpers
+    └── scripts
+        ├── admin
+        │   ├── addfield.phtml
+        │   ├── add-verified-user.phtml
+        │   ├── changeUserGroup.phtml
+        │   ├── deleteVerifiedTab.phtml
+        │   ├── doVerifiedTab.phtml
+        │   ├── editNode.phtml
+        │   ├── editUserGroup.phtml
+        │   ├── editUser.phtml
+        │   ├── follower.phtml
+        │   ├── message.phtml
+        │   ├── node.phtml
+        │   ├── popedom.phtml
+        │   ├── relateUser.phtml
+        │   ├── setField.phtml
+        │   ├── setPopedom.phtml
+        │   ├── userGroup.phtml
+        │   ├── user.phtml
+        │   └── verified.phtml
+        ├── app
+        │   ├── addOptTab.phtml
+        │   ├── add.phtml
+        │   ├── editDateTab.phtml
+        │   ├── index.phtml
+        │   ├── isHotList.phtml
+        │   ├── lookvote.phtml
+        │   ├── mainNav.phtml
+        │   ├── mypartivote.phtml
+        │   ├── myvote.phtml
+        │   └── votelist.phtml
+        ├── blog
+        │   ├── archive.phtml
+        │   ├── index.phtml
+        │   ├── posted.phtml
+        │   └── post.phtml
+        ├── error
+        │   └── error.phtml
+        ├── friends
+        │   ├── allfriends.phtml
+        │   ├── impression.phtml
+        │   ├── index.phtml
+        │   ├── invite.phtml
+        │   ├── left.phtml
+        │   ├── search.phtml
+        │   └── visitorhistory.phtml
+        ├── home
+        │   ├── degree.phtml
+        │   ├── feed.phtml
+        │   ├── header.phtml
+        │   ├── heard.phtml
+        │   ├── help.phtml
+        │   ├── index.phtml
+        │   ├── left.phtml
+        │   ├── manage_left.phtml
+        │   ├── manage.phtml
+        │   ├── message.phtml
+        │   ├── noticemanage.phtml
+        │   ├── password.phtml
+        │   ├── photo.phtml
+        │   ├── rank.phtml
+        │   ├── search.phtml
+        │   ├── searchtag.phtml
+        │   ├── searchuser.phtml
+        │   └── success.phtml
+        ├── index
+        ├── personal
+        │   ├── feed.phtml
+        │   ├── index.phtml
+        │   ├── liuyan.phtml
+        │   ├── message.phtml
+        │   └── outindex.phtml
+        ├── public
+        │   ├── index.phtml
+        │   └── userlogin.phtml
+        ├── user
+        │   ├── feed.phtml
+        │   ├── index.phtml
+        │   ├── liuyan.phtml
+        │   ├── message.phtml
+        │   ├── outindex.phtml
+        │   ├── personal-page.phtml
+        │   └── personal.phtml
+        └── weibo
+            ├── addpoll.phtml
+            ├── a.phtml
+            ├── faweibo.phtml
+            ├── index.phtml
+            ├── topic.phtml
+            └── yemian.phtml
+
+45 directories, 306 files
