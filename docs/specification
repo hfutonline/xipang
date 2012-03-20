@@ -1,0 +1,2 @@
+一、编程前最后先看一下docs下的文件：uml.png,online.png以及tree文件结构，并完善一下，谢谢
+二、最好按照面向对象的模式编程，暂时先将modules放在/application/models/Modules下，谢谢
