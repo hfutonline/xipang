@@ -1,4 +1,5 @@
 # Cool UML Diagram
+# http://yuml.me/diagram/scruffy/class/draw
 [Member]^-[Teacher]
 [Member]^-[Student]
 [Teacher]<>1-edit 0..*>[Group]
@@ -9,4 +10,11 @@
 [Member]<>->[Experience]
 [Experience]-1>[Creditrule]
 [Member]<>->[NoteNum]
-[NoteNum]
+[Member]<>-1>[HomePage]
+[HomePage]<>-1>[Information]
+[Information]-1>[Aggregator]
+[Aggregator]^[StuonlineNews]
+[StuonlineNews]1-0..*[Contribute]
+[Member]<>1-delieve 0..*>[Contribute]
+[Member]-1>[ConnectMethod]
+[ConnectMethod]^[Text],[ConnectMethod]^[Voice]
