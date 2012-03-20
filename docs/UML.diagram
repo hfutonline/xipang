@@ -7,7 +7,7 @@
 [Group]++*-*>[Student]
 [Teacher]-1>[InformMethod]
 [InformMethod]^[Mail], [InformMethod]^[Phone-Message]
-[Member]<>->[Experience]
+[Member]++-1>[Experience]
 [Experience]-1>[Creditrule]
 [Member]<>-1>[HomePage]
 [HomePage]<>-1>[Information]
