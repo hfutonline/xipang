@@ -111,15 +111,15 @@ send_message(mail: Application_Model_Module_Mail)</string>
         <void method="set">
          <object idref="Point2D$Double2">
           <void method="setLocation">
-           <double>585.0</double>
-           <double>701.9999999999995</double>
+           <double>391.0</double>
+           <double>396.99999999999955</double>
           </void>
          </object>
-         <double>701.9999999999995</double>
+         <double>396.99999999999955</double>
         </void>
        </void>
       </object>
-      <double>585.0</double>
+      <double>391.0</double>
      </void>
     </void>
    </object>
@@ -279,7 +279,7 @@ add_member(group: Application_Model_Group, student_id: int)
 delete_member(group: Application_Model_Group,student_id: int)
 delete_group(group: Application_Model_Group)
 rename_group(group: Application_Model_Group, group_name: string)
-get_grouplist()
+get_group_list()
 search(keyword: string)
 get_group_mail_list(group: Application_Model_Group)
 send_message(group: Application_Model_Group, mail: Application_Model_Module_Mail)</string>
@@ -287,7 +287,7 @@ send_message(group: Application_Model_Group, mail: Application_Model_Module_Mail
     </void>
     <void property="name">
      <void property="text">
-      <string>Application_Model_Teacher</string>
+      <string>Application_Model_Module_Teacher</string>
      </void>
     </void>
    </object>
@@ -301,15 +301,15 @@ send_message(group: Application_Model_Group, mail: Application_Model_Module_Mail
         <void method="set">
          <object idref="Point2D$Double7">
           <void method="setLocation">
-           <double>543.0000000000001</double>
-           <double>238.99999999999937</double>
+           <double>599.0000000000001</double>
+           <double>191.99999999999937</double>
           </void>
          </object>
-         <double>238.99999999999937</double>
+         <double>191.99999999999937</double>
         </void>
        </void>
       </object>
-      <double>543.0000000000001</double>
+      <double>599.0000000000001</double>
      </void>
     </void>
    </object>
@@ -507,6 +507,38 @@ Information</string>
        </void>
       </object>
       <double>220.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.NoteNode" id="NoteNode0">
+    <void property="text">
+     <void property="text">
+      <string>交流
+提交文章</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double14">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double14">
+       <void class="java.awt.geom.Point2D$Double" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Point2D$Double14">
+          <void method="setLocation">
+           <double>703.0</double>
+           <double>25.0</double>
+          </void>
+         </object>
+         <double>25.0</double>
+        </void>
+       </void>
+      </object>
+      <double>703.0</double>
      </void>
     </void>
    </object>
@@ -714,6 +746,11 @@ Information</string>
    </object>
    <object idref="ClassNode0"/>
    <object idref="ClassNode13"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.NoteEdge"/>
+   <object idref="ClassNode0"/>
+   <object idref="NoteNode0"/>
   </void>
  </object>
 </java>
