@@ -29,6 +29,8 @@ MyStakes是一个工大校园sns平台。在这里，你可以发微博，关注
 
 * [dpriest](https://github.com/dpriest)
 
+* [sylbj2007](https://github.com/sylbj2007)
+
 ##相关信息
 
 * 网站:http://online.hfut.edu.cn
