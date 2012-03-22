@@ -54,7 +54,6 @@ contribute()</string>
     <void property="methods">
      <void property="text">
       <string>__construct(uid: int)
-create(group: string)
 add_student(Student_id: id)
 delete_student(Students: Student_id: id)
 delete()
@@ -126,22 +125,6 @@ send_message(mail: Application_Model_Module_Mail)</string>
   </void>
   <void method="addNode">
    <object class="com.horstmann.violet.ClassNode" id="ClassNode3">
-    <void property="attributes">
-     <void property="text">
-      <string>title: string
-uid: int
-to_mail: array
-content: string</string>
-     </void>
-    </void>
-    <void property="methods">
-     <void property="text">
-      <string>send()
-delete()
-get_send_list()
-get_send_detail()</string>
-     </void>
-    </void>
     <void property="name">
      <void property="text">
       <string>Mail</string>
@@ -158,15 +141,15 @@ get_send_detail()</string>
         <void method="set">
          <object idref="Point2D$Double3">
           <void method="setLocation">
-           <double>456.9999999999999</double>
-           <double>615.9999999999999</double>
+           <double>495.9999999999999</double>
+           <double>700.9999999999999</double>
           </void>
          </object>
-         <double>615.9999999999999</double>
+         <double>700.9999999999999</double>
         </void>
        </void>
       </object>
-      <double>456.9999999999999</double>
+      <double>495.9999999999999</double>
      </void>
     </void>
    </object>
@@ -280,6 +263,7 @@ delete_member(group: Application_Model_Group,student_id: int)
 delete_group(group: Application_Model_Group)
 rename_group(group: Application_Model_Group, group_name: string)
 get_group_list()
+get_group(group_id: int)
 search(keyword: string)
 get_group_mail_list(group: Application_Model_Group)
 send_message(group: Application_Model_Group, mail: Application_Model_Module_Mail)</string>
@@ -301,15 +285,15 @@ send_message(group: Application_Model_Group, mail: Application_Model_Module_Mail
         <void method="set">
          <object idref="Point2D$Double7">
           <void method="setLocation">
-           <double>599.0000000000001</double>
-           <double>191.99999999999937</double>
+           <double>547.0000000000001</double>
+           <double>178.99999999999937</double>
           </void>
          </object>
-         <double>191.99999999999937</double>
+         <double>178.99999999999937</double>
         </void>
        </void>
       </object>
-      <double>599.0000000000001</double>
+      <double>547.0000000000001</double>
      </void>
     </void>
    </object>
@@ -389,6 +373,21 @@ Information</string>
   </void>
   <void method="addNode">
    <object class="com.horstmann.violet.ClassNode" id="ClassNode10">
+    <void property="attributes">
+     <void property="text">
+      <string>title: string
+content: string
+username: string
+to_mail: array</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>send(message: array)
+delete()
+get_send_list()</string>
+     </void>
+    </void>
     <void property="name">
      <void property="text">
       <string>InformMethod</string>
@@ -405,7 +404,7 @@ Information</string>
         <void method="set">
          <object idref="Point2D$Double10">
           <void method="setLocation">
-           <double>379.0</double>
+           <double>385.0</double>
            <double>481.0</double>
           </void>
          </object>
@@ -413,7 +412,7 @@ Information</string>
         </void>
        </void>
       </object>
-      <double>379.0</double>
+      <double>385.0</double>
      </void>
     </void>
    </object>
@@ -436,15 +435,15 @@ Information</string>
         <void method="set">
          <object idref="Point2D$Double11">
           <void method="setLocation">
-           <double>312.0</double>
-           <double>624.0</double>
+           <double>341.0</double>
+           <double>698.0</double>
           </void>
          </object>
-         <double>624.0</double>
+         <double>698.0</double>
         </void>
        </void>
       </object>
-      <double>312.0</double>
+      <double>341.0</double>
      </void>
     </void>
    </object>
