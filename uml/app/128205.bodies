@@ -1,0 +1,4 @@
+class App
+!!!128205.php!!!	__construct(in aid : int, in name : string) : void
+<?php
+$this-> uid = $uid;
