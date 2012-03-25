@@ -1,0 +1,14 @@
+window_sizes 1280 672 320 954 468 120
+windows_style
+diagrams
+  active  classdiagram_ref 135501 // api diagram
+    763 382 100 4 0 0
+end
+show_stereotypes
+selected attribute_ref 135501 // name
+open
+  class_ref 135245 // App
+  class_ref 135373 // Member
+  deploymentview_ref 134733 // deployment
+end
+end

@@ -1,0 +1,3 @@
+class App
+!!!135117.php!!!	__construct()
+$this->aid = $aid;
