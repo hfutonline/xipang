@@ -1,0 +1,7 @@
+# Cool UML Diagram
+# http://yuml.me/diagram/scruffy/class/draw
+# 个人中心接口信息推送设计
+[Application]<>1-publish 0..*>[News]
+[News]-1>[SendMethod]
+[SendMethod]<>1-filter 1>[Filter]
+[SendMethod]<>1-write 1>[Pulldata]
