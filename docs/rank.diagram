@@ -1,0 +1,5 @@
+// Cool Class Diagram
+// http://yuml.me/diagram/scruffy/class/draw
+[User]<>-takes*>[Action]
+[Action]-1>[RankMethod]
+[RankMethod]^[Login], [RankMethod]^[deliverWeibo]
