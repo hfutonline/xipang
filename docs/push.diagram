@@ -1,0 +1,7 @@
+// Cool Class Diagram
+// http://yuml.me/diagram/scruffy/class/draw
+[Member]<>-publish*>[Content]
+[Member]<>-update*>[Content]
+[Member]<>-delete*>[Content]
+[Content]^[Passage], [Content]^[Book]
+[Admin]<>-check*>[Content]
