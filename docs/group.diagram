@@ -1,0 +1,10 @@
+// Cool Class Diagram
+// http://yuml.me/diagram/scruffy/class/draw
+[Member]<>-create*>[Group]
+[Member]<>-add*>[Group]
+[Member]<>-delete*>[Group]
+[Member]<>-*>[Group]
+[Group]-1>[Topic]
+[Member]<>-create*>[Topic]
+[Member]<>-reply*>[Topic]
+[Member]<>-delete*>[Topic]
