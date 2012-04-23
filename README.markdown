@@ -7,7 +7,7 @@ https://github.com/hfutonline/xipang.git
 
 ## 介绍
 
-MyStakes是一个工大校园sns平台。在这里，你可以发微博，关注好友，获取资讯，实现师生之间的交流。
+Xipang是一个工大校园sns平台。在这里，你可以发微博，关注好友，获取资讯，实现师生之间的交流。
 
 ##用到的技术
 
