@@ -4,6 +4,8 @@
 [OperateMethod]^[add]
 [OperateMethod]^[delete]
 [OperateMethod]^-[OperateGroupMethod]
+[OperateGroupMethod]^[join]
+[OperateGroupMethod]^[quit]
 [Group]-1>[OperateGroupMethod]
 [Group]++*-*>[Topic]
 [OperateMethod]^-[OperateTopicMethod]
