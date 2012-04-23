@@ -32,15 +32,15 @@ editContent()</string>
         <void method="set">
          <object idref="Point2D$Double0">
           <void method="setLocation">
-           <double>508.9999999999998</double>
-           <double>55.0</double>
+           <double>407.9999999999998</double>
+           <double>73.0</double>
           </void>
          </object>
-         <double>55.0</double>
+         <double>73.0</double>
         </void>
        </void>
       </object>
-      <double>508.9999999999998</double>
+      <double>407.9999999999998</double>
      </void>
     </void>
    </object>
@@ -63,15 +63,15 @@ editContent()</string>
         <void method="set">
          <object idref="Point2D$Double1">
           <void method="setLocation">
-           <double>143.0</double>
-           <double>71.0</double>
+           <double>42.0</double>
+           <double>89.0</double>
           </void>
          </object>
-         <double>71.0</double>
+         <double>89.0</double>
         </void>
        </void>
       </object>
-      <double>143.0</double>
+      <double>42.0</double>
      </void>
     </void>
    </object>
@@ -101,15 +101,15 @@ delete()</string>
         <void method="set">
          <object idref="Point2D$Double2">
           <void method="setLocation">
-           <double>518.0</double>
-           <double>266.0</double>
+           <double>417.0</double>
+           <double>284.0</double>
           </void>
          </object>
-         <double>266.0</double>
+         <double>284.0</double>
         </void>
        </void>
       </object>
-      <double>518.0</double>
+      <double>417.0</double>
      </void>
     </void>
    </object>
@@ -132,15 +132,15 @@ delete()</string>
         <void method="set">
          <object idref="Point2D$Double3">
           <void method="setLocation">
-           <double>623.0</double>
-           <double>446.0</double>
+           <double>522.0</double>
+           <double>464.0</double>
           </void>
          </object>
-         <double>446.0</double>
+         <double>464.0</double>
         </void>
        </void>
       </object>
-      <double>623.0</double>
+      <double>522.0</double>
      </void>
     </void>
    </object>
@@ -163,15 +163,15 @@ delete()</string>
         <void method="set">
          <object idref="Point2D$Double4">
           <void method="setLocation">
-           <double>356.0</double>
-           <double>445.0</double>
+           <double>255.0</double>
+           <double>463.0</double>
           </void>
          </object>
-         <double>445.0</double>
+         <double>463.0</double>
         </void>
        </void>
       </object>
-      <double>356.0</double>
+      <double>255.0</double>
      </void>
     </void>
    </object>
